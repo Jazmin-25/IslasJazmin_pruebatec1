@@ -26,19 +26,15 @@ public class empleado implements Serializable {
      
 
     //agrego constructor con atributos
-     public empleado(String nombre1, String apellido1, String cargo1, double salario1, String fechaIni) {
-    }
 
-    public empleado(int id, String nombre, String apellido, String cargo, double salario, String fechaInicio) {
-        this.id = id;
+    public empleado(String nombre, String apellido, String cargo, double salario, String fechaInicio) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.cargo = cargo;
         this.salario = salario;
         this.fechaInicio = fechaInicio;
     }
-
-   
+      
     //agregar getters y setters
 
 
@@ -89,4 +85,5 @@ public class empleado implements Serializable {
     public void setFechaInicio(String fechaInicio) {
         this.fechaInicio = fechaInicio;
     }
+    
 }
