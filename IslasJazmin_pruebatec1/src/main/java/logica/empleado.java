@@ -1,12 +1,18 @@
 
 package logica;
 
+import java.io.Serializable;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-public class empleado {
-    //ingreso los atributos del requerimiento
-    //ingreso los atributos del requerimiento
-     private static int contador = 1;
-     private int id;
+@Entity 
+public class empleado implements Serializable {
+    //ingreso los atributos del requerimiento    
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
      private String nombre;
      private String apellido;
      private String cargo;
@@ -14,10 +20,14 @@ public class empleado {
      private String fechaInicio;  // uso string en vez de localdate para mayor comodidad
 
     //agrego constructor vacio
-     public empleado(String nombre1, String apellido1, String cargo1, double salario1, String fechaIni) {
+
+    public empleado() {
     }
+     
 
     //agrego constructor con atributos
+     public empleado(String nombre1, String apellido1, String cargo1, double salario1, String fechaIni) {
+    }
 
     public empleado(int id, String nombre, String apellido, String cargo, double salario, String fechaInicio) {
         this.id = id;

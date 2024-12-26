@@ -4,13 +4,16 @@ package com.softek.islasjazmin_pruebatec1;
 import java.util.ArrayList;
 import java.util.Scanner;
 import logica.empleado;
+import persistencia.empleadoPersistencia;
 
 
 public class IslasJazmin_pruebatec1 {
 
     public static void main(String[] args) {
+        empleadoPersistencia controlPersi = new empleadoPersistencia();
         
-        //primero realizo pruebas del menu interactivo para posteriormente realizar la conexion a bd
+        
+      
         //cree un arraylist para poder observar el menu en consola
         ArrayList<empleado> listaEmpleado = new ArrayList<>(); //en la base de datos no utilizo arrays, solo prueba
         Scanner teclado = new Scanner(System.in);
