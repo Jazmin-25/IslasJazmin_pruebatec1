@@ -12,14 +12,13 @@ public class IslasJazmin_pruebatec1 {
     public static void main(String[] args) {
         empleadoPersistencia controlPersi = new empleadoPersistencia();
         
-        
-      
+             
         //cree un arraylist para poder observar el menu en consola
         ArrayList<empleado> listaEmpleado = new ArrayList<>(); //en la base de datos no utilizo arrays, solo prueba
         Scanner teclado = new Scanner(System.in);
 
         //en combinación con estructuras como un switch
-        // acciones dependiendo de la opción seleccionada.
+        
         int opcion = 0;
 
 
