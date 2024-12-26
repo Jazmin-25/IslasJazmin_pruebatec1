@@ -4,29 +4,41 @@ package logica;
 
 public class empleado {
     //ingreso los atributos del requerimiento
-    //para la prueba del menu en consola no agrego el id, sera agregado en bd como primary key
-    private String nombre;
+    //ingreso los atributos del requerimiento
+     private static int contador = 1;
+     private int id;
+     private String nombre;
      private String apellido;
      private String cargo;
      private double salario;
-     private String fechaInicio;  // uso string en vez de localdate para mayor comodidad, aunque puedo poner una excepcion
+     private String fechaInicio;  // uso string en vez de localdate para mayor comodidad
 
-     //agrego constructor vacio
-
-    public empleado() {
+    //agrego constructor vacio
+     public empleado(String nombre1, String apellido1, String cargo1, double salario1, String fechaIni) {
     }
-     
+
     //agrego constructor con atributos
 
-    public empleado(String nombre, String apellido, String cargo, double salario, String fechaInicio) {
+    public empleado(int id, String nombre, String apellido, String cargo, double salario, String fechaInicio) {
+        this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
         this.cargo = cargo;
         this.salario = salario;
         this.fechaInicio = fechaInicio;
     }
-    
-    //Agregar getters y seters
+
+   
+    //agregar getters y setters
+
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getNombre() {
         return nombre;
@@ -67,5 +79,4 @@ public class empleado {
     public void setFechaInicio(String fechaInicio) {
         this.fechaInicio = fechaInicio;
     }
-    
 }

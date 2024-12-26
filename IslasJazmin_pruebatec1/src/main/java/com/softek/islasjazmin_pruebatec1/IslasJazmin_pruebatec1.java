@@ -87,6 +87,8 @@ public class IslasJazmin_pruebatec1 {
                     String fechaIni = teclado.nextLine();
                     //muestrame al empleado agregadp en la lista
                     listaEmpleado.add(new empleado(nombre, apellido, cargo, salario, fechaIni));
+
+                   // listaEmpleado.add(new Empleado());
                     System.out.println("¡Empleado agregado correctamente al sistema!");
                     break;
                 case 2:
@@ -113,9 +115,9 @@ public class IslasJazmin_pruebatec1 {
                     else {
                         System.out.println("Lista de empleados registrados en el sistema");
                         for (empleado empleado : listaEmpleado) {
-                            System.out.println("Nombre: " + empleado.getNombre() + " Apellido: " + empleado.getApellido()
-                            + " Cargo: " + empleado.getCargo() + " Salario: " + empleado.getSalario() + " Fecha de inicio: " +
-                                    empleado.getFechaInicio());
+                            System.out.println("ID: " + empleado.getId() + ", Nombre: " + empleado.getNombre() +
+                                    ", Apellido: " + empleado.getApellido() + ", Cargo: " + empleado.getCargo() +
+                                    ", Salario: " + empleado.getSalario() + ", Fecha de inicio: " + empleado.getFechaInicio());
                         }
                     }
                     break;
@@ -171,7 +173,7 @@ public class IslasJazmin_pruebatec1 {
                     System.out.println("Opción no válida. Por favor, elige una opción del menú.");
                     break;
             }
+
         }
     }
 }
-    
