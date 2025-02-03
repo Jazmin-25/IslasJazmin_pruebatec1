@@ -35,28 +35,6 @@ Esta aplicación de gestión de empleados permite a los usuarios llevar a cabo o
 - Eliminar un empleado: Elimina un empleado de la base de datos.
 
 ---
-## ⚙️ **Requisitos Técnicos**
-- Lenguaje: Java (versión 17)
-
-- Persistencia: JPA (Java Persistence API)
-
-- Base de Datos: MySQL (nombre de la base de datos: empleados)
-
-- Gestor de Dependencias: Maven
-
-- IDE: NetBeans
-
----
-## 💻 **Tecnologías Utilizadas**
-- Lenguaje: Java (versión 17)
-
-- Persistencia: JPA (Java Persistence API)
-
-- Base de Datos: MySQL (empleados)
-
-- Gestor de Dependencias: Maven
-
----
 ## 🔄 **Arquitectura del Sistema**
 
 1.- Lógica:
@@ -86,14 +64,36 @@ Clase EmpleadoJpaController: Implementa las operaciones CRUD sobre la base de da
 - Almacena y organiza los datos de los empleados en la base de datos empleados.
 
 ---
+## ⚙️ **Requisitos Técnicos**
+- Lenguaje: Java (versión 17)
+
+- Persistencia: JPA (Java Persistence API)
+
+- Base de Datos: MySQL (nombre de la base de datos: empleados)
+
+- Gestor de Dependencias: Maven
+
+- IDE: NetBeans
+
+---
+## 💻 **Tecnologías Utilizadas**
+- Lenguaje: Java (versión 17)
+
+- Persistencia: JPA (Java Persistence API)
+
+- Base de Datos: MySQL (empleados)
+
+- Gestor de Dependencias: Maven
+
+---
 ## 🚀 **Cómo Ejecutar el Sistema**
-1.- Abrir el proyecto:Carga el archivo del proyecto IslasJazmin_pruebatec1 en el IDE NetBeans.
+1.- Abrir el proyecto: Carga el archivo del proyecto IslasJazmin_pruebatec1 en el IDE NetBeans.
 
-2.- Ejecutar la aplicación:Ejecuta la aplicación directamente desde NetBeans presionando F6 o seleccionando la opción "Run Project".
+2.- Ejecutar la aplicación: Ejecuta la aplicación directamente desde NetBeans presionando F6 o seleccionando la opción "Run Project".
 
-3.- Configurar la base de datos:Ejecuta el archivo empleados.sql en tu servidor de base de datos para crear las tablas necesarias.
+3.- Configurar la base de datos: Ejecuta el archivo empleados.sql en tu servidor de base de datos para crear las tablas necesarias.
 
-4.- Acceder a phpMyAdmin:Abre phpMyAdmin e inicia sesión con las siguientes credenciales:
+4.- Acceder a phpMyAdmin: Abre phpMyAdmin e inicia sesión con las siguientes credenciales:
  - Usuario: `root`
  - Contraseña: `  ` (vacio, no lleva ninguna contraseña)
 
