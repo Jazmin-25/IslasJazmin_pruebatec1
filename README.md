@@ -105,4 +105,4 @@ Clase EmpleadoJpaController: Implementa las operaciones CRUD sobre la base de da
 
 - Código Fuente: Estructurado y organizado.
 
-Base de Datos: Script SQL (empleados.sql).
+- Base de Datos: Script SQL (empleados.sql).
