@@ -81,12 +81,12 @@ Almacena y organiza los datos de los empleados en la base de datos empleados.
    - Usuario: `root`
    - Contraseña: `  ` (vacio, no lleva ninguna contraseña)
 6.	Verificar la configuración:
+
 •	Asegúrate de que la base de datos empleados esté configurada correctamente y vinculada a la aplicación mediante la configuración de persistencia.
 
 ---
 ## 📦 **Material Entregado**
 1. **Documentación**: Guía completa del sistema.
 2. **Código Fuente**: Estructurado y organizado.
-3. **Base de Datos**: 
-   - SQL empleados 
+3. **Base de Datos**: SQL empleados 
 ---
