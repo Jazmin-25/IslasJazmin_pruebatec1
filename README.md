@@ -20,10 +20,15 @@ Esta aplicación de gestión de empleados para una empresa permite a los usuario
 ## 🛠️ **Funcionalidades**
 
 •	Menú ASCII interactivo: Proporciona un menú atractivo para la interacción del usuario.
+
 •	Agregar un nuevo empleado: Permite ingresar información sobre un nuevo empleado, incluyendo nombre, apellido, cargo, salario y fecha de inicio.
+
 •	Listar empleados: Visualiza la lista de todos los empleados en la base de datos.
+
 •	Buscar empleados por cargo: Busca empleados por su cargo y muestra una lista de los empleados que tienen ese cargo.
+
 •	Actualizar información de un empleado: Modifica la información de un empleado existente.
+
 •	Eliminar un empleado: Elimina un empleado de la base de datos.
 
 ---
