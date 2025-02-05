@@ -20,6 +20,29 @@ Esta aplicación de gestión de empleados permite a los usuarios llevar a cabo o
 - Buscar empleados por cargo: Filtrar empleados según su cargo.
 
 ---
+## 📝 **Supuestos del Sistema**
+📋 Los cargos definidos para los empleados del sistema son los siguientes:
+
+👩‍💼 Contador
+
+💻 Analista Programador
+
+📊 Jefe de Área
+
+🎓 Instructor
+
+🧾 Auxiliar de Nómina
+
+🔍 Reclutador
+
+🧑‍🤝‍🧑 Coordinadora RH
+
+🚀 Líder de Proyecto
+
+🏢 Gerente
+
+- Se asume que la base de datos esta disponible siempre y cuando el sistema este en ejecución.
+---
 ## 🛠️ **Funcionalidades**
 
 - Menú ASCII interactivo: Proporciona un menú atractivo para la interacción del usuario.
