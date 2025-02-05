@@ -61,7 +61,7 @@ Clase EmpleadoJpaController: Implementa las operaciones CRUD sobre la base de da
 
 4.- Base de Datos:
 
-- Almacena y organiza los datos de los empleados en la base de datos empleados.
+- Almacena y organiza los datos de los empleados en la base de datos empleados. La estructura principal contiene la tabla empleado con las siguientes columnas: ID, APELLIDO, CARGO, FECHAINICIO, NOMBRE, SALARIO.
 
 ---
 ## ⚙️ **Requisitos Técnicos**
@@ -91,7 +91,8 @@ Clase EmpleadoJpaController: Implementa las operaciones CRUD sobre la base de da
 
 2.- Ejecutar la aplicación: Ejecuta la aplicación directamente desde NetBeans presionando F6 o seleccionando la opción "Run Project".
 
-3.- Configurar la base de datos: Ejecuta el archivo empleados.sql en tu servidor de base de datos para crear las tablas necesarias.
+3.- Configurar la base de datos: Ejecuta el archivo empleados.sql en tu servidor de base de datos, en la cual estaran presentes registros iniciales en la tabla empleado. 
+![Base de Datos](https://github.com/Jazmin-25/IslasJazmin_pruebatec1/blob/main/empleado%20(2).sql)
 
 4.- Acceder a phpMyAdmin: Abre phpMyAdmin e inicia sesión con las siguientes credenciales:
  - Usuario: `root`
