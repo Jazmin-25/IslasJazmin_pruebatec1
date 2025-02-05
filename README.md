@@ -91,27 +91,9 @@ Clase EmpleadoJpaController: Implementa las operaciones CRUD sobre la base de da
 
 2.- Ejecutar la aplicación: Ejecuta la aplicación directamente desde NetBeans presionando F6 o seleccionando la opción "Run Project".
 
-3.- Configurar la base de datos: Ejecuta el archivo empleados.sql en tu servidor de base de datos, en la cual estaran presentes los siguientes registros iniciales en la tabla empleado:
-      INSERT INTO `empleado` (`ID`, `APELLIDO`, `CARGO`, `FECHAINICIO`, `NOMBRE`, `SALARIO`) VALUES
-      (1, 'Garcia Castro', 'Contador', '2022-02-01', 'Laura', 12.5),
-      (2, 'Bautista Martinez', 'Contador', '2022-02-01', 'Alfredo', 12.5),
-      (3, 'Islas Garcia', 'Analista Programador', '2025-02-03', 'Ariadna', 17.36),
-      (4, 'Hernandez Chavez', 'Jefe de Área', '2017-08-11', 'Marisol', 18.36),
-      (5, 'Cruz Sierra', 'Instructor', '2022-07-15', 'Angel', 15.555),
-      (6, 'Pineda Gallego', 'Instructor', '2022-07-15', 'Zamir', 15.555),
-      (7, 'Hernandez Garcia', 'Analista Programador', '2022-02-01', 'Paola', 12.5),
-      (8, 'Gutierrez Hernandez', 'Analista Programador', '2022-02-01', 'Marisol', 12.5),
-      (9, 'Navarro Domingo', 'Analista Programador', '2022-02-01', 'Sara', 12.5),
-      (10, 'Hernandez Castro', 'Contador', '2022-02-01', 'Mariana', 12.5),
-      (11, 'Hernandez Nava', 'Instructor', '2022-07-15', 'Luisina', 15.555),
-      (12, 'Hernandez Nava', 'Auxiliar de Nomina', '2022-07-15', 'Monica', 15.555),
-      (13, 'Valencia Hernandez', 'Reclutadora', '2022-02-01', 'Claudia', 12.5),
-      (14, 'Gomez Hernandez', 'Coordinadora RH', '2022-02-01', 'Isabel', 12.5),
-      (15, 'Sanchez Chavez', 'Líder de Proyecto', '2017-08-11', 'Marisol', 18.36),
-      (16, 'Paramo Chavez', 'Gerente', '2011-08-11', 'Pedro', 18.36),
-      (17, 'Rulfo', 'Reclutador', '2011-08-11', 'Juan', 10.36);
+3.- Configurar la base de datos: Ejecuta el archivo empleados.sql en tu servidor de base de datos. Este archivo contiene registros iniciales en la tabla `empleado`:
 
-COMMIT;
+![Base de Datos](https://github.com/Jazmin-25/IslasJazmin_pruebatec1/blob/main/Registros%20tabla%20empleado.png)
 
 4.- Acceder a phpMyAdmin: Abre phpMyAdmin e inicia sesión con las siguientes credenciales:
  - Usuario: `root`
