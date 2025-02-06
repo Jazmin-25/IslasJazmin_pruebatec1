@@ -97,7 +97,7 @@ Clase EmpleadoJpaController: Implementa las operaciones CRUD sobre la base de da
 
 - Persistencia: JPA (Java Persistence API)
 
-- Base de Datos: MySQL (nombre de la base de datos: empleados)
+- Base de Datos: MySQL (nombre de la base de datos: empleado)
 
 - Gestor de Dependencias: Maven
 
@@ -109,7 +109,7 @@ Clase EmpleadoJpaController: Implementa las operaciones CRUD sobre la base de da
 
 - Persistencia: JPA (Java Persistence API)
 
-- Base de Datos: MySQL (empleados)
+- Base de Datos: MySQL (empleado)
 
 - Gestor de Dependencias: Maven
 
