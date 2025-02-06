@@ -116,7 +116,7 @@ Clase EmpleadoJpaController: Implementa las operaciones CRUD sobre la base de da
 
 3.- Configurar la base de datos: Ejecuta el archivo empleados.sql en tu servidor de base de datos. Este archivo contiene registros iniciales en la tabla `empleado`:
 
-![Base de Datos](https://github.com/Jazmin-25/IslasJazmin_pruebatec1/blob/main/Registros%20tabla%20empleado.png)
+![Base de Datos]()
 
 4.- Acceder a phpMyAdmin: Abre phpMyAdmin e inicia sesión con las siguientes credenciales:
  - Usuario: `root`
