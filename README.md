@@ -25,19 +25,19 @@ Esta aplicación de gestión de empleados permite a los usuarios llevar a cabo o
 
 👩‍💼 Contador
 
-💻 Analista Programador
+💻 Programador
 
-📊 Jefe de Área
+📊 Supervisor
 
 🎓 Instructor
 
-🧾 Auxiliar de Nómina
+🧾 Nómina
 
 🔍 Reclutador
 
-🧑‍🤝‍🧑 Coordinadora RH
+🧑‍🤝‍🧑 Coordinadora
 
-🚀 Líder de Proyecto
+🚀 Líder
 
 🏢 Gerente
 
