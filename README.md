@@ -87,6 +87,11 @@ Clase EmpleadoJpaController: Implementa las operaciones CRUD sobre la base de da
 - Almacena y organiza los datos de los empleados en la base de datos empleados. La estructura principal contiene la tabla empleado con las siguientes columnas: ID, APELLIDO, CARGO, FECHAINICIO, NOMBRE, SALARIO.
 
 ---
+## 🔍 **Estructura del Proyecto**  
+
+![Estructura del proyecto](https://github.com/Jazmin-25/IslasJazmin_pruebatec1/blob/main/Estructura%20de%20proyecto%20IslasAriadna_pruebatec1.png)
+
+---
 ## ⚙️ **Requisitos Técnicos**
 - Lenguaje: Java (versión 17)
 
@@ -129,5 +134,8 @@ Clase EmpleadoJpaController: Implementa las operaciones CRUD sobre la base de da
 - Documentación: Guía completa del sistema.
 
 - Código Fuente: Estructurado y organizado.
+
+- Evidencia del CRUD y las correcciones de la prueba técnica
+  [Evidencias del Proyecto](https://github.com/Jazmin-25/IslasJazmin_pruebatec1/blob/main/Evidencias%20de%20CRUD%20correcciones.docx)
 
 - Base de Datos: Script SQL (empleados.sql).
